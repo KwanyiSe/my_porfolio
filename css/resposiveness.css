@@ -1,0 +1,259 @@
+@media screen and (max-width: 851px) {
+	.mobile-design {
+		display: flex;
+		width: auto;
+		justify-content: center;
+	}
+
+	.footer {
+		position: relative;
+		top: 108em;
+		bottom: 0;
+	}
+	.main-content {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.main-content .box {
+		margin: 5px 0;
+	}
+
+	.mobi {
+		position: absolute;
+	}
+
+	.nav-container {
+		width: 100%;
+		min-height: 719px;
+		background-color: #65349c;
+	}
+
+	.info-container .info .name {
+		font-size: 31;
+	}
+	label.logox {
+		position: absolute;
+		font-size: 31px;
+		font-weight: sticky;
+		color: white;
+		padding: 0 60px;
+		padding-top: 28px;
+		line-height: 80px;
+	}
+	.info-container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 80%;
+		height: auto;
+		margin-top: 30%;
+		margin-right: 10%;
+		margin-left: 10%;
+		justify-content: center;
+	}
+	.name {
+		color: #fff;
+		font-family: "Roboto Slab", sans-serif;
+		font-size: 50px;
+		font-weight: 700;
+		line-height: 61px;
+	}
+
+	.skills h2 {
+		font-size: 25px;
+	}
+
+	.skills #pro-p {
+		font-size: 15px;
+	}
+
+	.skills {
+		text-align: center;
+		margin-bottom: 14em;
+		margin-top: 2em;
+		opacity: 0.9;
+	}
+	.skills p {
+		margin-bottom: 7px;
+		margin-top: 7px;
+		color: #151515;
+	}
+	.skills img {
+		vertical-align: middle;
+		width: 60px;
+		margin: 0 7px;
+	}
+	.skills {
+		visibility: visible;
+	}
+	/*----work 01----*/
+	#projects {
+		text-transform: capitalize;
+		font-size: 25px;
+		font-weight: 200px;
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		margin-bottom: 3em;
+	}
+	.work-container {
+		margin: 0;
+		padding: 0;
+		width: 0;
+		height: 0;
+		visibility: hidden;
+	}
+	/*-----mobile projects-----*/
+	*,
+	*:before,
+	*:after {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	body {
+		font-family: sans-serif;
+	}
+
+	h1 {
+		font-size: 40px;
+		color: 1a1a1a;
+		text-align: center;
+		text-transform: capitalize;
+		padding: 40px 60px;
+	}
+
+	.mobile-container {
+		width: 100%;
+	}
+
+	.content {
+		position: relative;
+		width: 31%;
+		margin: 0 1.16%;
+		float: left;
+		overflow: hidden;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.content .text-overlay {
+		background: #111;
+		position: absolute;
+		width: 100%;
+		height: 99%;
+		opacity: 0;
+		transition: all 0.5s ease-in-out;
+	}
+
+	.content:hover .text-overlay {
+		opacity: 0.9;
+	}
+	.text-details {
+		position: absolute;
+		width: 100%;
+		top: 80%;
+		left: 50%;
+		text-align: center;
+		padding: 0 16px;
+		opacity: 0;
+		transform: translate(-50%, -50%) rotateY(150deg);
+		transition: all 0.5s ease-in-out;
+	}
+
+	.btns {
+		display: flex;
+		align-items: center;
+		place-content: space-around;
+		position: absolute;
+		margin-top: 20px;
+		width: 90%;
+		height: 90px;
+	}
+
+	.btns a {
+		display: flex;
+		font-size: 14px;
+		align-items: center;
+		background-color: rgb(241, 32, 32);
+		text-transform: capitalize;
+		color: #fff;
+		cursor: pointer;
+		width: 92px;
+		height: 50px;
+		border-radius: 4px;
+	}
+
+	.btns a:hover {
+		background-color: #151515;
+	}
+
+	.content:hover .text-details {
+		top: 50%;
+		left: 50%;
+		opacity: 1;
+		transform: translate(-50%, -50%) rotateY(0deg);
+	}
+
+	.text-title {
+		color: #fff;
+		font-size: 25px;
+		font-weight: bold;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+	}
+
+	.text {
+		color: #fff;
+		font-size: 16px;
+		padding: 0 3px;
+		line-height: 25px;
+	}
+
+	/* make the boxes resposible in mobile*/
+
+	@media screen and (max-width: 900px) {
+		h1 {
+			font-size: 50px;
+			padding: 35px 0;
+		}
+
+		.content {
+			width: 46%;
+			margin: 1% 2%;
+		}
+	}
+
+	@media screen and (max-width: 650px) {
+		.text-title {
+			font-size: 25px;
+		}
+		.logox {
+			display: none;
+		}
+
+		.text {
+			font-size: 15px;
+			line-height: 22px;
+		}
+	}
+
+	@media screen and (max-width: 550px) {
+		h1 {
+			font-size: 30px;
+			margin-top: 5px;
+			color: rgb(68, 65, 65);
+		}
+		.logox {
+			display: none;
+		}
+
+		.content {
+			width: 90%;
+			margin: 2.5% 5%;
+		}
+	}
+}

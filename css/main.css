@@ -1,0 +1,249 @@
+/*----Global----*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+* {
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-decoration: none;
+	list-style: none;
+}
+@media screen and (min-width: 1029px) {
+	.mobile-container {
+		display: none;
+	}
+
+	.mobi {
+		height: 0;
+		margin: 0;
+		padding: 0;
+		visibility: hidden;
+	}
+}
+html {
+	font-family: sans-serif;
+	font-weight: 100;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #6c7279;
+}
+
+.blue {
+	color: #027bff;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 400;
+	color: #17191a;
+}
+
+/*----arranging icons sizes----*/
+.message {
+	height: auto;
+	width: 40px;
+}
+
+/*---- Nav ----*/
+label.logox {
+	position: absolute;
+	font-size: 32px;
+	font-weight: sticky;
+	color: white;
+	padding: 0 100px;
+	padding-top: 25px;
+	line-height: 80px;
+}
+
+.name {
+	color: #fff;
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 70px;
+	font-weight: 700;
+}
+ul a {
+	color: rgba(255, 255, 255, 0.75);
+	font-size: 13px;
+	font-weight: 400;
+	margin-left: 40px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.nav-container {
+	width: 100%;
+	min-height: 750px;
+	background-color: #65349c;
+}
+
+.nav-links {
+	width: 95%;
+	height: 150px;
+	display: flex;
+	gap: 18px;
+	justify-content: flex-end;
+	text-align: center;
+	align-items: center;
+}
+
+.info-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	height: auto;
+	margin-top: 10%;
+	margin-right: 10%;
+	margin-left: 10%;
+	justify-content: center;
+}
+/*---- landing----*/
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/*---- skills----*/
+
+#pro-p {
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.skills {
+	text-align: center;
+	margin-bottom: 20em;
+	margin-top: 5em;
+	opacity: 0.9;
+}
+.skills p {
+	margin-bottom: 30px;
+	margin-top: 7px;
+	color: #151515;
+}
+.skills img {
+	vertical-align: middle;
+	width: 81px;
+	margin: 0 15px;
+}
+
+/*----work 01----*/
+#im:hover {
+	background-color: black;
+}
+
+.worktext a h5 {
+	color: #151515;
+}
+.worktext a h5:hover {
+	color: rgb(241, 32, 32);
+}
+
+#projects {
+	text-transform: capitalize;
+	font-size: 50px;
+	font-weight: 500px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 3em;
+}
+.work-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	place-content: center;
+}
+.work-set {
+	width: 60%;
+}
+.work {
+	width: 100%;
+	position: relative;
+	margin-bottom: 20em;
+}
+.work > .worktext {
+	position: absolute;
+	top: 85px;
+}
+
+.work > .worktext > .underline {
+	/*----  the blue underline----*/
+	display: block;
+	background-color: rgb(241, 32, 32);
+	height: 3px;
+	width: 61px;
+	margin-top: 5px;
+}
+
+.work > .working {
+	width: 85%;
+	float: right;
+	/*----  box shadow generator from google  start ----*/
+	-webkit-box-shadow: 5px 5px 15px 5px #000000;
+	box-shadow: 5px 5px 15px 5px #000000;
+	/*----  box shadow generator from google ends ----*/
+}
+
+.work ul {
+	position: absolute;
+	bottom: 0;
+	right: 85%;
+}
+
+.work ul li {
+	margin-top: 30px;
+}
+
+/*----  work 01 ends ----*/
+
+/*----  work 02 start ----*/
+.work2 {
+	width: 100%;
+	position: relative;
+	margin-bottom: 20em;
+}
+.work2 > .worktext {
+	position: absolute;
+	top: 85px;
+	right: 0px;
+	text-align: right;
+}
+
+.work2 > .worktext > a {
+	padding: 5px;
+}
+.work2 > .worktext > .underline {
+	/*----  the blue underline----*/
+	display: block;
+	background-color: rgb(241, 32, 32);
+	height: 3px;
+	width: 61px;
+	margin-top: 5px;
+	float: right;
+}
+
+.work2 > .working {
+	width: 85%;
+	float: left;
+	/*----  box shadow generator from google  start ----*/
+	-webkit-box-shadow: 5px 5px 15px 5px #000000;
+	box-shadow: 5px 5px 15px 5px #000000;
+	/*----  box shadow generator from google ends ----*/
+}
+
+.work2 ul {
+	position: absolute;
+	bottom: 0;
+	left: 80.6%;
+}
+
+.work2 ul li {
+	margin-top: 30px;
+}
