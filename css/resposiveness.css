@@ -7,7 +7,7 @@
 
 	.footer {
 		position: relative;
-		top: 104em;
+		top: 107em;
 		bottom: 0;
 	}
 	.main-content {
@@ -271,6 +271,14 @@
 		}
 	}
 
+	@media screen and (max-width: 480px) {
+		.footer {
+			position: relative;
+			top: 103em;
+			bottom: 0;
+		}
+	}
+
 	@media screen and (max-width: 550px) {
 		h1 {
 			font-size: 30px;
@@ -283,7 +291,7 @@
 
 		.content {
 			width: 90%;
-			margin: 2.5% 5%;
+			margin: 6.5% 5%;
 		}
 	}
 
@@ -311,7 +319,7 @@
 			font-size: 9;
 			cursor: pointer;
 			width: 90px;
-			height: auto;
+			height: 35px;
 			border-radius: 4px;
 		}
 	}
